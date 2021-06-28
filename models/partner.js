@@ -9,7 +9,7 @@ const partnerSchema = new Schema(
       unique: true,
     },
     featured: {
-      type: String,
+      type: Boolean,
     },
     image: {
       type: String,
