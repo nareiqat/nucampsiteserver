@@ -10,7 +10,7 @@ const authenticate = require("./authenticate");
 const session = require("express-session");
 const FileStore = require("session-file-store")(session);
 // const authenticate = require('../authenticate');
-const config = require("./config");
+const config = require("./config/config");
 
 const url = config.mongoUrl;
 app.use(
